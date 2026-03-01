@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: checkoutV4
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Set up .NET Cor
         uses: actions/setup-dotnet@v4
